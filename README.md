@@ -17,7 +17,7 @@ I recognized the need for a task management application that offers simplicity a
 
 ## Getting Started
 
-- Access HabitForge [here](#) (Provide deployment link)
+- Access HabitForge [here](https://habitforge-t25c.vercel.app/)
 - Explore the application and start logging your tasks.
 
 ## Tech Stack
