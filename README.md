@@ -2,7 +2,7 @@
 
 HabitForge is a platform designed to help users log their daily tasks or plans efficiently.
 
-![HabitForge](/public/landingPage.png)
+![habitforge](/HabitForge/public/landingPage.png)
 
 ## Motivation
 
