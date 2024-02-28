@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
@@ -19,7 +20,7 @@ const HabitCard = (habit) => {
   };
 
   return (
-    <div className="habit-card">
+    <div className="habit-card" signUp>
       <h3>{habit.title}</h3>
       <p>{habit.description}</p>
       <div className="date">{habit.date} </div>
