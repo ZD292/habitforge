@@ -2,6 +2,8 @@
 
 HabitForge is a platform designed to help users log their daily tasks or plans efficiently.
 
+![habitforge](/public/landingPage.png)
+
 ## Motivation
 
 I recognized the need for a task management application that offers simplicity and flexibility. HabitForge was created to address this need, providing users with a straightforward tool to organize their tasks effectively.
