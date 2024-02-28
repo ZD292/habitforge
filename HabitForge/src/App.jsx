@@ -1,15 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
+// pages
+import Home from "./pages/Home";
+import Create from "./pages/Create";
+import AddHabit from "./pages/AddHabit";
+import Update from "./pages/Update";
 
 function App() {
   return (
-    <h1 className='test-xl font-bold bg-red-400'>helllo this is sa ts</h1>
-
-
-  )
+    <BrowserRouter>
+      <nav className="flex justify-between">
+        <h1>HabitForge</h1>
+        <Link to="/">Home</Link>
+        <Link to="/create">Add new Habit</Link>
+        {/* <Link to="/addhabit">Create New Habit</Link> */}
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/create" element={<Create />} />
+        <Route path="/:id" element={<Update />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
-
+export default App;
